@@ -1,0 +1,113 @@
+# Node modules and build artifacts (front-end)
+front-end/node_modules/
+front-end/.next/
+front-end/.next-cache/
+front-end/.next-standalone/
+front-end/.next/cache/
+front-end/public/static/
+front-end/.vscode/
+front-end/.env.local
+front-end/.env.development.local
+front-end/.env.test.local
+front-end/.env.production.local
+
+# TypeScript
+front-end/*.tsbuildinfo
+
+# Build directories
+front-end/build/
+
+# vercel
+front-end/.vercel/
+
+# Python bytecode and cache (back-end)
+back-end/.mypy_cache/
+back-end/.dmypy.json
+back-end/dmypy.json
+back-end/.pyre/
+back-end/.pytype/
+back-end/**/__pycache__/
+back-end/**/*.pyc
+back-end/**/*.pyo
+back-end/**/*.pyd
+
+# Distribution / packaging (back-end)
+back-end/.Python
+back-end/env/
+back-end/venv/
+back-end/ENV/
+back-end/env.bak/
+back-end/venv.bak/
+back-end/*.egg-info/
+back-end/dist/
+back-end/build/
+back-end/*.egg
+back-end/*.manifest
+back-end/*.spec
+
+# Installer logs (back-end)
+back-end/pip-log.txt
+back-end/pip-delete-this-directory.txt
+
+# Unit test / coverage reports (back-end)
+back-end/.coverage
+back-end/*.cover
+back-end/*.py,cover
+back-end/nosetests.xml
+back-end/coverage.xml
+back-end/*.coveragerc
+back-end/*.pylint.d
+back-end/*.pytest_cache/
+
+# Django specific (if used in the back-end)
+back-end/*.log
+back-end/local_settings.py
+back-end/db.sqlite3
+back-end/db.sqlite3-journal
+
+# Flask specific (if used in the back-end)
+back-end/instance/
+back-end/.webassets-cache
+
+# Environment files
+back-end/.env
+back-end/.env.*
+front-end/.env
+
+# IDE and editor-specific files
+.front-end/.vscode/
+.back-end/.vscode/
+.back-end/.idea/
+.front-end/.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Rider
+.idea/
+
+# Archives
+*.tar.gz
+*.tar.bz2
+*.zip
+*.rar
+
+# Temporary files
+*.tmp
+*.swp
+
+# Jupyter Notebook (back-end)
+back-end/.ipynb_checkpoints
+
+# Auto-generated files (back-end)
+back-end/*.generated.py
+back-end/*.schema.py
+back-end/*.graphql.py
+back-end/*.proto
+
+# Coverage reports (back-end)
+back-end/htmlcov/
